@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:orientation="vertical"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="375.0dp"
+        android:layout_height="337.5dp"
+        android:id="@+id/linearLayout1"
+        android:gravity="center"
+        android:layout_centerInParent="true"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp">
+        <TextView
+            android:text="Bienvenido"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView1"
+            android:textAlignment="center"
+            android:textStyle="bold|italic"
+            android:textColor="@android:color/black"
+            android:layout_marginBottom="11.5dp"
+            android:textSize="20dp" />
+        <TextView
+            android:text=""
+            android:layout_width="58.0dp"
+            android:layout_height="58.5dp"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:id="@+id/textView2"
+            android:background="@drawable/user" />
+        <EditText
+            android:inputType="textMultiLine"
+            android:layout_width="match_parent"
+            android:layout_height="52.5dp"
+            android:id="@+id/editText1"
+            android:background="@android:drawable/edit_text"
+            android:hint="Usuario" />
+        <TextView
+            android:text=""
+            android:layout_width="58.0dp"
+            android:layout_height="58.5dp"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:id="@+id/textView3"
+            android:background="@drawable/candado" />
+        <EditText
+            android:inputType="textMultiLine"
+            android:layout_width="match_parent"
+            android:layout_height="52.5dp"
+            android:id="@+id/editText2"
+            android:background="@android:drawable/edit_text"
+            android:hint="Contraseña" />
+        <LinearLayout
+            android:orientation="horizontal"
+            android:minWidth="25px"
+            android:minHeight="25px"
+            android:layout_width="match_parent"
+            android:layout_height="47.0dp"
+            android:id="@+id/linearLayout2"
+            android:layout_gravity="center">
+            <Button
+                android:text="Ingresar"
+                android:layout_width="119.0dp"
+                android:layout_height="match_parent"
+                android:id="@+id/button1"
+                android:layout_marginLeft="47.0dp"
+                android:gravity="center"
+                android:backgroundTint="@android:color/holo_green_light" />
+            <Button
+                android:text="Registrar"
+                android:layout_width="119.0dp"
+                android:layout_height="match_parent"
+                android:id="@+id/button2"
+                android:gravity="center"
+                android:layout_marginLeft="23.0dp"
+                android:backgroundTint="@android:color/holo_orange_dark" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

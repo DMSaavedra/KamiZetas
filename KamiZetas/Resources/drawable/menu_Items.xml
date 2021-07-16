@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+	<item
+		android:id="@+id/btnNacionales"
+		android:title="Nacionales"
+		android:showAsAction="ifRoom|withText"/>
+	<item
+		android:id="@+id/btnInternacionales"
+		android:title="Intercionales"
+		android:showAsAction="ifRoom|withText"/>
+	<item
+		android:id="@+id/btnEspeciales"
+		android:title="Especiales"
+		android:showAsAction="ifRoom|withText"/>
+</menu>
